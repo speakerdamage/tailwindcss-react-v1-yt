@@ -1,5 +1,5 @@
 {
-  "name": "tailwindcss-react-v1-yt",
+  "name": "tailwindcss-react-v1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,8 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test"
+    "test": "craco test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
