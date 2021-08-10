@@ -1,10 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 .menu-card {
   @apply flex flex-col justify-center items-center bg-white h-screen font-mono py-40;
 }
 
 .center-content {
   @apply flex flex-col justify-center items-center;
+}
+
+.nav-links {
+  @apply p-4 hover:text-red-500 hover:underline;
+}
+
+.cards {
+  @apply flex flex-row justify-center items-center px-8 py-40;
+}
+
+.card {
+  @apply px-10;
+}
+
+.card-img {
+  @apply max-h-48 rounded mb-10 shadow mx-auto;
+}
+
+.header-cta {
+  @apply text-4xl;
 }

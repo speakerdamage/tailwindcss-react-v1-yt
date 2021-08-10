@@ -1,6 +1,6 @@
-import React from 'react'
-import ImageOne from '../images/egg.jpg'
-import ImageTwo from '../images/egg2.jpg'
+import React from 'react';
+import ImageOne from '../images/egg.jpg';
+import ImageTwo from '../images/egg2.jpg';
 
 const Content = () => {
   return (
@@ -25,4 +25,4 @@ const Content = () => {
   )
 }
 
-export default Content
+export default Content;
