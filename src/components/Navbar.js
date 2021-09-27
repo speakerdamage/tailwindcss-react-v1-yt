@@ -7,7 +7,7 @@ const Navbar = ({toggle}) => {
     className='flex justify-between items-center h-16 bg-white text-black relative shadow-sm font-mono' 
     role='navigation'>
       <Link to='/' className='pl-8'>
-        Egg
+        CK
         </Link>
         <div className="px-4 cursor-pointer md:hidden" onClick={toggle}>
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -19,6 +19,7 @@ const Navbar = ({toggle}) => {
           <Link className='nav-links' to='/menu'>Menu</Link>
           <Link className='nav-links' to='/about'>About</Link>
           <Link className='nav-links' to='/contact'>Contact</Link>
+          <Link className='nav-links' to='/map'>Map</Link>
         </div>
     </nav>
   )

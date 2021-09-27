@@ -6,6 +6,7 @@ import Home from './pages';
 import About from './pages/about';
 import Menu from './pages/menu';
 import Contact from './pages/contact';
+import Map from './pages/map';
 import { Switch, Route } from 'react-router-dom';
 import Dropdown from './components/Dropdown';
 
@@ -40,6 +41,7 @@ function App() {
         <Route path="/menu" component={Menu} />
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
+        <Route path="/map" component={Map} />
       </Switch>
       <Footer />
     </>
